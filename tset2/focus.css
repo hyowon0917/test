@@ -1,0 +1,23 @@
+/* 선택자 ABC 요소가 포커스 되면 */
+
+input {
+ color: red;
+}
+
+input:focus {
+  background-color: orange;
+}
+
+/* tabindex : HTML 대화형 콘텐츠가 아니더라도 focus 가능하게 해줌 */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s;
+}
+
+.box:focus {
+  width: 300px;
+  background-color: royalblue;
+}

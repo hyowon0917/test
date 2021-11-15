@@ -1,0 +1,13 @@
+/* 선택자 ABC 요소에 마우스를 클릭하고 있는 동안 */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s;
+}
+
+.box:active {
+  width: 300px;
+  background-color: royalblue;
+}

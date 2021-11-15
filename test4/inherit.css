@@ -1,0 +1,14 @@
+.parent {
+  width: 100px;
+  height: 200px;
+  background-color: orange;
+}
+
+.child {
+  width: 100px;
+  height: inherit; /*강제 상속 : 부모 값을 동일하게 상속*/
+  background-color: inherit;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
